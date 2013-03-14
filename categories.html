@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>What's In Blue</title>
+    <link rel="stylesheet" href="jquery.mobile.custom.structure.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript">
+$( document ).on( "mobileinit", function() {
+    // Make your jQuery Mobile framework configuration changes here!
+    $.support.cors = true;
+    $.mobile.allowCrossDomainPages = true;
+});
+
+</script>    
+    <script type="text/javascript" src="phonegap.js"></script>
+    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="jquery.mobile-1.3.0.min.js"></script>
+    <script>
+    
+    $( document ).bind( "mobileinit", function() {
+    // Make your jQuery Mobile framework configuration changes here!
+
+    $.mobile.allowCrossDomainPages = true;
+});
+
+        try {
+
+            $(function () {
+
+            });
+
+        } catch (error) {
+            console.error("Your javascript has an error: " + error);
+        }
+        </script>
+</head>
+<body onload="MM_preloadImages('_resources/img/header_interior.gif')">
+    <div data-role="page" id="page3">
+            <header>
+        	<ul class="header_list">
+        		<li class="icon_back"><a href="index.html" data-rel="back"><img src="icon_back_sm.gif" /></a></li>
+        		<li class="wib_logo"><img src="wib_logo_sm.gif" /></li>
+        		<!-- <li class="icon_email"><img src="icon_email_sm.gif" /></li> -->
+        	</ul>
+        </header>
+        <div class="top_title">
+            Insights by Category</div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Africa" data-role="button" data-transition="slide">Africa</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Americas" data-role="button" data-transition="slide">
+                Americas</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Arms" data-role="button" data-transition="slide">Arms
+                Control and Disarmament</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Asia" data-role="button" data-transition="slide">Asia</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Children" data-role="button" data-transition="slide">
+                Children and Armed Conflict</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=CounterTerrorism" data-role="button" data-transition="slide">
+                Counter-Terrorism</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Europe" data-role="button" data-transition="slide">Europe</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Justice" data-role="button" data-transition="slide">
+                Justice and Criminal Accountability</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=MidEast" data-role="button" data-transition="slide">
+                Middle East</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=PeaceBuilding" data-role="button" data-transition="slide">
+                Peacebuilding</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=PeaceKeeping" data-role="button" data-transition="slide">
+                Peacekeeping</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=PeaceMaking" data-role="button" data-transition="slide">
+                Peacemaking</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Civilians" data-role="button" data-transition="slide">
+                Protection of Civilians</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Issues" data-role="button" data-transition="slide">UN
+                Institutional Issues</a>
+        </div>
+        <div class="category_link">
+            <a href="articles.html?Feed=Women" data-role="button" data-transition="slide">Women,
+                Peace and Security</a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
